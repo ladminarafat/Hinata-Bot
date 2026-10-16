@@ -3,16 +3,16 @@ const axios = require("axios");
 const mahmud = [
     "baby",
     "bby",
-    "babu",
-    "bbu",
-    "jan",
-    "bot",
-    "জান",
-    "জানু",
-    "বেবি",
-    "wifey",
-    "hina",
     "hinata",
+    "admin",
+    "owner",
+    "jaiga",
+    "bye",
+    "death",
+    "leave",
+    "morning",
+    "night",
+    "miss",
 ];
 
 const baseApiUrl = async () => {
@@ -186,11 +186,11 @@ module.exports.onChat = async ({ api, event }) => {
 
             const randomMessage = [
                 "আমাকে ডাকলে ,আমি কিন্তূ কিস করে দেবো😘 ",
-                "neo amr boss k message daw 01836298139",
+                "hea bolo ki bolba ami hinata",
                 "গোলাপ ফুল এর জায়গায় আমি দিলাম তোমায় মেসেজ",
                 "বলো কি বলবা, সবার সামনে বলবা নাকি?🤭🤏",
                 "𝗜 𝗹𝗼𝘃𝗲 𝘆𝗼𝘂__😘😘",
-                "𝗕𝗯𝘆 𝗕𝗯𝘆 না করে আমার বস মানে, MahMUD ,MahMUD ও তো করতে পারো😑?",
+                "𝗕𝗯𝘆 𝗕𝗯𝘆 না করে আমার বস মানে, AraFaT AraFaT ও তো করতে পারো😑?",
                 "আমার সোনার বাংলা, তারপরে লাইন কি? 🙈",
                 "🍺 এই নাও জুস খাও..!𝗕𝗯𝘆 বলতে বলতে হাপায় গেছো না 🥲",
                 "হটাৎ আমাকে মনে পড়লো 🙄",
