@@ -4,14 +4,14 @@ const mahmud = [
     "baby",
     "bby",
     "babu",
-    "bbu",
-    "jan",
-    "bot",
-    "জান",
-    "জানু",
-    "বেবি",
+    "admin",
+    "owner",
+    "death",
+    "jaiga",
+    "bye",
+    "patta",
     "wifey",
-    "hina",
+    "leave",
     "hinata",
 ];
 
@@ -21,6 +21,7 @@ const baseApiUrl = async () => {
 };
 
 module.exports.config = {
+    credits: "SARDAR RDX",
     name: "baby",
     aliases: ["bby", "bbu", "jan", "janu", "wifey", "bot", "hinata", "hina"],
     version: "6.0.8",
@@ -186,11 +187,11 @@ module.exports.onChat = async ({ api, event }) => {
 
             const randomMessage = [
                 "আমাকে ডাকলে ,আমি কিন্তূ কিস করে দেবো😘 ",
-                "neo amr boss k message daw 01836298139",
+                "neo amr boss AraFAT k message daw ",
                 "গোলাপ ফুল এর জায়গায় আমি দিলাম তোমায় মেসেজ",
                 "বলো কি বলবা, সবার সামনে বলবা নাকি?🤭🤏",
                 "𝗜 𝗹𝗼𝘃𝗲 𝘆𝗼𝘂__😘😘",
-                "𝗕𝗯𝘆 𝗕𝗯𝘆 না করে আমার বস মানে, MahMUD ,MahMUD ও তো করতে পারো😑?",
+                "𝗕𝗯𝘆 𝗕𝗯𝘆 না করে আমার বস মানে, AraFAT ,AraFAT ও তো করতে পারো😑?",
                 "আমার সোনার বাংলা, তারপরে লাইন কি? 🙈",
                 "🍺 এই নাও জুস খাও..!𝗕𝗯𝘆 বলতে বলতে হাপায় গেছো না 🥲",
                 "হটাৎ আমাকে মনে পড়লো 🙄",
