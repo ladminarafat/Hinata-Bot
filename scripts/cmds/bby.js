@@ -3,14 +3,14 @@ const axios = require("axios");
 const mahmud = [
     "baby",
     "bby",
-    "babu",
-    "bbu",
-    "jan",
-    "bot",
-    "জান",
-    "জানু",
-    "বেবি",
-    "wifey",
+    "owner",
+    "admin",
+    "leave",
+    "death",
+    "nai",
+    "bye",
+    "patta",
+    "jaiga",
     "hina",
     "hinata",
 ];
@@ -21,6 +21,7 @@ const baseApiUrl = async () => {
 };
 
 module.exports.config = {
+    credits: "SARDAR RDX",
     name: "baby",
     aliases: ["bby", "bbu", "jan", "janu", "wifey", "bot", "hinata", "hina"],
     version: "6.0.8",
@@ -179,18 +180,18 @@ module.exports.onChat = async ({ api, event }) => {
         const hasTrigger = mahmud.some(word => body.startsWith(word));
 
         if (event.type !== "message_reply" && hasTrigger) {
-            api.setMessageReaction("🪽", event.messageID, () => {}, true);
+            api.setMessageReaction("🌸", event.messageID, () => {}, true);
 
             const text = body.replace(/^\S+\s*/, "");
             const attachments = event.attachments || [];
 
             const randomMessage = [
                 "আমাকে ডাকলে ,আমি কিন্তূ কিস করে দেবো😘 ",
-                "neo amr boss k message daw 01836298139",
+                "neo amr boss arafat k message daw",
                 "গোলাপ ফুল এর জায়গায় আমি দিলাম তোমায় মেসেজ",
                 "বলো কি বলবা, সবার সামনে বলবা নাকি?🤭🤏",
                 "𝗜 𝗹𝗼𝘃𝗲 𝘆𝗼𝘂__😘😘",
-                "𝗕𝗯𝘆 𝗕𝗯𝘆 না করে আমার বস মানে, MahMUD ,MahMUD ও তো করতে পারো😑?",
+                "𝗕𝗯𝘆 𝗕𝗯𝘆 না করে আমার বস মানে, AraFAT , AraFAT ও তো করতে পারো😑?",
                 "আমার সোনার বাংলা, তারপরে লাইন কি? 🙈",
                 "🍺 এই নাও জুস খাও..!𝗕𝗯𝘆 বলতে বলতে হাপায় গেছো না 🥲",
                 "হটাৎ আমাকে মনে পড়লো 🙄",
